@@ -2,26 +2,18 @@
     <ion-page>
       <ion-header :translucent="true">
         <ion-toolbar>
-          <ion-title>Popular Card View</ion-title>
+          <ion-title>Popular Cards ;)</ion-title>
         </ion-toolbar>
       </ion-header>
       
   
       <ion-content :fullscreen="true">
-
-        <ion-refresher slot="fixed" @ionRefresh="refresh($event)">
-          <ion-refresher-content></ion-refresher-content>
-        </ion-refresher>
-  
-        <ion-header collapse="condense">
-          <ion-toolbar>
-            <ion-title size="large">Second header condense</ion-title>
-          </ion-toolbar>
-        </ion-header>
-  
-        <ion-list>
-          <MessageListItem v-for="message in messages" :key="message.id" :message="message" />
-        </ion-list>
+        <ion-card>
+            <ion-card-header>
+                <ion-card-title>Card Title</ion-card-title>
+                <ion-card-subtitle>Chapter #</ion-card-subtitle>
+            </ion-card-header>
+        </ion-card>
 
       </ion-content>
     </ion-page>
