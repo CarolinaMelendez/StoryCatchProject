@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "StoryCatch_Front",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
