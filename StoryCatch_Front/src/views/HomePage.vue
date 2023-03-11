@@ -2,7 +2,7 @@
   <ion-page>
     <ion-header :translucent="true">
       <ion-toolbar>
-        <ion-title>Inbox Caro</ion-title>
+        <ion-title>Inbox Car</ion-title>
       </ion-toolbar>
     </ion-header>
 

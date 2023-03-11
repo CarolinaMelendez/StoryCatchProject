@@ -15,6 +15,10 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/message/:id',
     component: () => import('../views/ViewMessagePage.vue')
+  },
+  {
+    path: '/popularCards',
+    component: () => import('../views/ViewPopularCards.vue')
   }
 ]
 
